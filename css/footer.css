@@ -36,3 +36,7 @@ margin-bottom: 16px;
   margin-top: 0;
   justify-content: flex-start;
 }
+.footer .social-link:hover,
+.footer .social-link:focus {
+  background-color:  #31d0aa;
+}
