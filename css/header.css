@@ -26,6 +26,20 @@
   display: block;
   padding: 24px 0;
 }
+.header-nav-link.current {
+  color:#404bbf;
+  position: relative;
+}
+.header-nav-link.current::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
 .header-nav-link:hover,
 .header-nav-link:focus {
   color: #404bbf;
